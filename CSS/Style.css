@@ -1,0 +1,115 @@
+.xenon {
+  position: relative;
+  top: 100px;
+}
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #66BFBf;
+  border-width: 5px;
+  width: 5%;
+  padding-bottom: 50px;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.top {
+  background-color: #E4F9F5;
+  height: 650px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pfp {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 580px;
+  bottom: 700px;
+
+}
+.py {
+  width: 300px;
+  height: 150px;
+  float: left;
+  margin-right: 30px;
+}
+.code {
+  float: right;
+  margin-left: 30px;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 360px;
+  left: 250px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.pro1 {
+  position: relative;
+  top: 70px;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.btn {
+  background-color: #66BFBF; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #66BFBF;
+}
+
+.btn:hover {
+  background-color: #66BFBF;
+  color: white;
+}
+
+.bottom {
+  background-color: #66BFBF;
+  position: relative;
+  padding-bottom: 10px;
+}
