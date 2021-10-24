@@ -1,10 +1,4 @@
-html, body {
-  height: 100%;
-  width:100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
+
 h1 {
   line-height: 2rem;
   margin-top: 1.4rem;
@@ -14,6 +8,7 @@ h1 {
 
 body {
   font-family: 'Montserrat'sans-serif;
+  padding-bottom: 0;
 }
 
 html {
@@ -22,8 +17,9 @@ html {
 
 .container-fluid {
   text-align: center;
-  padding: 5rem 5rem;
+  padding: 3% 15%;
   line-height: 3rem;
+  padding-bottom: 0;
 }
 
 .nav-item {
@@ -48,8 +44,7 @@ html {
   text-align: center;
   background-color: #374747;
   color: #fff;
-  position: relative;
-  top: 7rem;
+
 }
 
 a {
@@ -58,4 +53,11 @@ a {
 
 a:hover {
   color: #fff;
+}
+
+.navbar {
+  padding: 0 0 0 10rem ;
+}
+.navbar-nav {
+  padding-right: 10rem;
 }
