@@ -1,4 +1,7 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 h1 {
   line-height: 2rem;
   margin-top: 1.4rem;
