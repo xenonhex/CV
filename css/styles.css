@@ -1,15 +1,23 @@
-* {
+html, body {
+  height: 100%;
+  width:100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 h1 {
   line-height: 2rem;
   margin-top: 1.4rem;
   font-family: 'Sacramento', cursive;
-  font-size: 562.5%;
+  font-size: 5rem;
 }
+
 body {
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Montserrat'sans-serif;
+}
+
+html {
+  height: 99%;
 }
 
 .container-fluid {
@@ -22,13 +30,9 @@ body {
   padding: 0 1.5rem;
 }
 
-
-
 .pfp {
   width: 8rem;
 }
-
-
 
 .fab:hover {
   color: grey;
@@ -43,14 +47,15 @@ body {
   margin-top: 5rem;
   text-align: center;
   background-color: #374747;
-  margin-bottom: 0;
   color: #fff;
+  position: relative;
+  top: 7rem;
 }
-
 
 a {
   color: black;
 }
-a:hover{
+
+a:hover {
   color: #fff;
 }
