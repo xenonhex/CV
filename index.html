@@ -1,54 +1,85 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>XenonHeX</title>
-    <link rel="stylesheet" href="CSS/Style.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud image">
-      <h1 class="xenon">I'm Xenon.</h1>
-      <p class="pro1">I'm a <span class="pro">pro</span>grammer.</p>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud image">
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Xenons site</title>
+  <script src="https://kit.fontawesome.com/03a7cd2c2a.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Sacramento&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <section>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">XenonHeX</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/channel/UCgPFg6lwrLjwh_blp3lCt3Q">Subsribe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://replit.com/@kaylangodytgod/minigame?v=1">MiniGame</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://discord.gg/s7Tyah7bw8">My dicord</a>
+        </li>
     </div>
-    <div class="middle">
-      <div class="profile">
-        <img class="pfp" src="pfp-modified.png" alt="profile pic">
-        <h2>Hello.</h2>
-        <p>I'm a Web developer and software enginner.</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="py" src="python.jpg" alt="python code">
-          <h3>HTML & CSS</h3>
-          <p>Currently I am fluent in both HTML and CSS in web development.</p>
+  </nav>
+
+<!-- intro -->
+<section>
+
+  <div class="container-fluid">
+    <section class="text">
+      <img class="pfp" src="pfp-modified.png" alt="">
+      <h1>Im xenon</h1>
+      <p>A web Software engineer student</p>
+
+      <!-- skills -->
+
+      <h2>Skills</h2>
+      <section id="features">
+        <div class="row">
+          <div class="features-icons col-md-4">
+            <i class="fab fa-html5 fa-4x"></i>
+            <h3>HTML.</h3>
+            <p>I know alot almost everything in html.</p>
+          </div>
+          <div class="features-icons col-md-4">
+            <i class="fab fa-css3-alt fa-4x"></i>
+            <h3>CSS</h3>
+            <p>I know how to properly design websites using css.</p>
+          </div>
+          <div class="features-icons col-md-4">
+            <i class="fab fa-python fa-4x"></i>
+            <h3>PYTHON.</h3>
+            <p>I am a level 3 python programmer.</p>
+          </div>
+
         </div>
-        <div class="skill-row">
-          <img class="code" src="images.jpg" alt="">
-          <h3>Python</h3>
-          <p>I also know how to write code in python and have 2 years experiance in it.</p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>You can contect me with</h3>
-        <p>My discord or my phone number that you will find below, my instagram is @xenonhex.</p>
-        <a class="btn" href="https://www.youtube.com/channel/UCgPFg6lwrLjwh_blp3lCt3Q">SUBSCRIBE</a>
-      </div>
-    </div>
+      </section>
+    </section>
 
+    <section>
+      <h2>Platforms</h2>
+      <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-discord"></i> My Discord</button>
+    </section>
 
-    <div class="bottom">
-      <a class="footer-link" href="https://discord.gg/s7Tyah7bw8">Dsicord</a>
-      <p>Whatsapp me at 0793089313</p>
-      <p>© 2021 XenonHeX.</p>
-    </div>
-
-  </body>
+  </div>
+  <div class="bottom">
+  <p>© 2021 XenonHeX.</p>
+</div>
+</body>
 </html>
