@@ -9,8 +9,7 @@ body {
 }
 
 .container-fluid {
-  text-align: center;
-  padding: 5rem;
+  text-align: center;;
   line-height: 3rem;
 }
 
@@ -48,4 +47,7 @@ body {
 }
 .bak1 {
   background-color: red;
+}
+.test {
+  text-align: center;
 }
